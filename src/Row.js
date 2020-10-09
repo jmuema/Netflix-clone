@@ -25,11 +25,12 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }, [fetchUrl])
 
     const opts = {
-        height: '600',
-        width: '100%',
+        height: '390',
+        width: "100%",
         playerVars: {
-            // https://developers.google.com/youtube/player_parameters
             autoplay: 1,
+            // https://developers.google.com/youtube/player_parameters
+            
         },
     };
 
